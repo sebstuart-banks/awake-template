@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="3000" viewBox="0 0 2560 3000">
+  
+  <style>
+
+    @supports (-webkit-text-size-adjust:100%) {
+
+      svg {
+        animation-name: svg-hue-rotation;
+        animation-duration: 15s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes svg-hue-rotation {
+        0%, 100% { filter: hue-rotate(0); }
+        50% { filter: hue-rotate(30deg); }
+      }
+
+      .svg-ribbon-1 {
+        animation-name: svg-ribbon-animation;
+        animation-duration: 24s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes svg-ribbon-animation {
+        0%, 100% { transform: scale(1, 1.4); }
+        50% { transform: scale(1, 1); }
+      }
+
+      .svg-ribbon-2 {
+        animation-name: svg-ribbon-animation-2;
+        animation-duration: 24s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes svg-ribbon-animation-2 {
+        0%, 100% { transform: scale(1, 1.4) translateY(0); }
+        50% { transform: scale(1, 1) translateY(400px); }
+      }
+
+    }
+
+  </style>
+
+  <g class="svg-ribbon-1">
+    <polygon points="2458.91 843.62 1753.34 372.9 1099.67 -350.31 1258.48 -488.59 2458.91 843.62" fill="#226bf4"/>
+    <polygon points="3172.6 874.28 3141.45 1083.36 2458.63 843.31 1753.34 372.9 3172.6 874.28" fill="#135ce5"/>
+  </g>
+
+  <g class="svg-ribbon-2">
+    <polygon points="541.78 1943.87 -178 2489.6 -178 2231.39 368.61 1814.56 537.1 1686.07 541.78 1943.87" fill="#226bf4"/>
+    <polygon points="541.78 1943.87 368.61 1814.56 -178 1406.37 -178 1146.69 537.1 1686.07 541.78 1943.87" fill="#135ce5"/>
+  </g>
+
+</svg>
