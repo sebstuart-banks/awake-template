@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="670" viewBox="0 0 1600 670">
+  <rect width="1600" height="670" fill="#ebeaeb"/>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -170; 10 -260; 20 -280; 15 -280; 20 40; 10 20; 0 0" keySplines="0.5 0 0.7 1" dur="15s" repeatCount="indefinite"/>
+    <rect x="244.5" y="391.93" width="343.67" height="425.94" fill="#216bf4"/>
+    <polygon points="416.01 547.21 451.86 581.83 444.44 589.52 421.94 567.77 421.94 662.61 411.26 662.61 411.26 566.92 388.28 589.47 380.8 581.88 416.01 547.21" fill="#fff" fill-rule="evenodd"/>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -260; 20 -280; 10 -270; 10 -260; 40 40; 0 10; 0 0" keySplines="0.5 0 0.7 1" dur="15s" repeatCount="indefinite"/>
+    <rect x="628.17" y="391.93" width="343.67" height="425.94" fill="#216bf4"/>
+    <polygon points="799.68 547.21 835.53 581.83 828.1 589.52 805.61 567.77 805.61 662.61 794.92 662.61 794.92 566.92 771.95 589.47 764.47 581.88 799.68 547.21" fill="#fff" fill-rule="evenodd"/>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -180; 10 -250; 30 -280; 20 -280; 30 40; 10 20; 0 0" keySplines="0.5 0 0.7 1" dur="15s" repeatCount="indefinite"/>
+    <rect x="1011.83" y="391.93" width="343.67" height="425.94" fill="#216bf4"/>
+    <polygon points="1183.35 547.21 1219.2 581.83 1211.77 589.52 1189.28 567.77 1189.28 662.61 1178.59 662.61 1178.59 566.92 1155.62 589.47 1148.14 581.88 1183.35 547.21" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>
