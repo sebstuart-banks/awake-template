@@ -1,0 +1,8 @@
+.tm-header-overlay {position: absolute;z-index: 980;width: 100%;}
+.uk-sticky-fixed {z-index: 980;box-sizing: border-box;margin: 0 !important;-webkit-backface-visibility: hidden;backface-visibility: hidden;}
+.uk-offcanvas {height: 100vh;}
+.uk-offcanvas-container {position: relative;left: 0;transition: left .3s ease-out;box-sizing: border-box;width: 100%;}
+:not(.uk-offcanvas-flip).uk-offcanvas-container-animation {left: 270px;}
+.uk-offcanvas-flip.uk-offcanvas-container-animation {left: -270px;}
+@media (min-width: 960px) {:not(.uk-offcanvas-flip).uk-offcanvas-container-animation {left: 350px;}
+	.uk-offcanvas-flip.uk-offcanvas-container-animation {left: -350px;}}
