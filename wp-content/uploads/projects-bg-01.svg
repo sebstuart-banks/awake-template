@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="1700" viewBox="0 0 2560 1700">
+  
+  <style>
+
+    @supports (-webkit-text-size-adjust:100%) {
+
+      svg {
+        animation-name: svg-hue-rotation;
+        animation-duration: 15s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes svg-hue-rotation {
+        0%, 100% { filter: hue-rotate(0); }
+        50% { filter: hue-rotate(30deg); }
+      }
+
+      .svg-ribbon {
+        animation-name: svg-ribbon-animation;
+        animation-duration: 24s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes svg-ribbon-animation {
+        0%, 100% { transform: scale(1, 1) translateY(0); }
+        50% { transform: scale(1, 1.2) translateY(100px); }
+      }
+
+    }
+
+  </style>
+
+  <g class="svg-ribbon">
+    <polygon points="2079.79 2442.43 1879.77 2463.15 1640.63 1110.51 1760.32 584.61 2079.79 2442.43" fill="#135ce5"/>
+    <polygon points="3136.39 191.57 1760.34 584.58 2264.42 225.98 3088.37 -5.18 3136.39 191.57" fill="#135ce5"/>
+    <polygon points="1640.63 1110.5 1760.34 584.58 2264.4 225.98 1640.63 1110.5" fill="#226bf4"/>
+  </g>
+
+</svg>
